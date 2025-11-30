@@ -35,7 +35,7 @@ const About = ({ dark }) => {
               dark ? "text-white" : "text-black"
             }`}
           >
-            At Specific Net, we aim to provide internet that is ⚡ Fast , 🌐 Reliable, and 💰 Affordable, keeping homes and businesses connected 24/7.
+            At Specific Net, we aim to provide internet that is ⚡ Fast, 🌐 Reliable, and 💰 Affordable, keeping homes and businesses connected 24/7. Skyhy Broadband Services Pvt. Ltd. is proud to be a part of this company, working together to deliver seamless connectivity and exceptional service.
           </p>
 
           <p
