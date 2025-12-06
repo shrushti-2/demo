@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Notification from "./components/Notification";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -14,7 +15,12 @@ const App = () => {
   const toggleTheme = () => setDark(!dark);
 
   return (
+
     <div className={`transition-colors duration-300 ${dark ? "bg-black" : "bg-white"}`}>
+
+      {/* 🔔 Top Notification Bar */}
+      <Notification />
+      
       <Navbar dark={dark} toggleTheme={toggleTheme} />
 
       {/* Home Section */}
